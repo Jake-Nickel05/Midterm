@@ -1,0 +1,90 @@
+{
+    "food": [
+      {
+        
+        "title": "Tacos",
+        "price": "$9.99",
+        "description":"Three delicious tacos, choice of beef or chicken, lettuce, tomatoes, salsa, and other toppings for extra.",
+        "url": "https://media.istockphoto.com/id/459396345/photo/taco.jpg?s=1024x1024&w=is&k=20&c=ptqvfVJDsrNXzPUSUMVgbAkqIXotUf3a8lFAHBt9ZSE="
+      },
+      {
+        
+        "title": "Enchiladas",
+        "price": "$12.99",
+        "description":"Delight in our enchiladas filled with chicken, beef, or veggies, topped with house-made sauce and cheese, served with cilantro lime rice, black beans, and pico de gallo.",
+        "url": "https://c7.alamy.com/comp/CWBM97/chicken-enchiladas-with-guacamole-and-corn-chips-CWBM97.jpg"
+      },
+      {
+        
+        "title": "Taco Salad",
+        "price": "$8.99",
+        "description":"A fresh blend of crisp lettuce, seasoned ground beef or chicken, black beans, and diced tomatoes, topped with cheese, crunchy tortilla strips, and a zesty dressing. Served in a crispy tortilla bowl for a satisfying meal.",
+        "url": "https://c7.alamy.com/comp/S17J98/taco-salad-mexico-delicious-S17J98.jpg"
+      },
+      {
+        
+        "title": "Chips and Guac",
+        "price": "$2.99",
+        "description":"Crispy tortilla chips served with our creamy, house-made guacamole, made with ripe avocados, fresh lime, and zesty spices. Perfect for sharing or enjoying solo!",
+        "url": "https://c7.alamy.com/comp/HPFADC/guacamole-in-home-crafted-bowl-with-tortilla-chips-on-natural-wooden-HPFADC.jpg"
+      }
+    ],
+    "drinks": [
+        {
+          
+          "title": "Pepsi",
+          "price": "$1.99",
+          "description":"Classic Pepsi.",
+          "url": "https://pngfre.com/wp-content/uploads/Pepsi-9.png"
+        },
+        {
+          
+          "title": "Corona",
+          "price": "$3.99",
+          "description":"Corona with lime.",
+          "url": "https://c7.alamy.com/comp/2G6H67E/corona-extra-beer-bottle-stands-on-glass-table-isolated-on-white-volgograd-russia-june-03-2021-2G6H67E.jpg"
+        },
+        {
+          
+          "title": "Sprite",
+          "price": "$1.99",
+          "description":"Classic Sprite.",
+          "url": "https://banner2.cleanpng.com/20180405/llw/kisspng-sprite-fizzy-drinks-coca-cola-fanta-beverage-can-fanta-5ac6ccd31049e5.4630086415229780030667.jpg"
+        },
+        {
+          
+          "title": "Dr. Pepper",
+          "price": "$1.99",
+          "description":"Classic Dr. Pepper.",
+          "url": "https://p7.hiclipart.com/preview/525/712/996/fizzy-drinks-coca-cola-fanta-dr-pepper-coca-cola.jpg"
+        },
+        {
+          
+            "title": "Diet Dr. Pepper",
+            "price": "$1.99",
+            "description":"Classic Diet Dr. Pepper with no sugar.",
+            "url": "https://www.snackoree.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/d/d/ddrp_can_2.png"
+          },
+        {
+          
+            "title": "Lime Margarita",
+            "price": "$6.99",
+            "description":"Homemade lime margarita.",
+            "url": "https://media.istockphoto.com/id/916049866/photo/classic-margarita-cocktail-with-lime.jpg?s=1024x1024&w=is&k=20&c=1RFHoIAOJ_t2zt1k4cOeQi7wu9cc0j3DGa6GDAsvRtg="
+          },
+        {
+          
+            "title": "Strawberry Margarita",
+            "price": "$6.99",
+            "description":"Homemade stawberry margarita.",
+            "url": "https://media.istockphoto.com/id/119079737/photo/a-strawberry-flavored-alcoholic-cocktail.jpg?s=1024x1024&w=is&k=20&c=xrqmK_DnEyhCXFdLW5l-y9qya7BNpJLcJ4AozSyNsHk="
+          },
+        {
+          
+            "title": "Watermellon Margarita",
+            "price": "$6.99",
+            "description":"Homemade watermellon margarita.",
+            "url": "https://media.istockphoto.com/id/576893746/photo/watermelon-margarita.jpg?s=1024x1024&w=is&k=20&c=npLBQtHeHZy-hXatFkW_DyxpTPRrGkcUQg1-1P-tbDw="
+          }
+      ]
+  }

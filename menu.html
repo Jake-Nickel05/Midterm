@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexican</title>
+    <link rel = "stylesheet" href = "index.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .border-container {
+            width: 80%; 
+            margin: 0 auto; 
+            border-bottom: 2px solid blue; 
+        }
+
+        
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: black;
+            color: white;
+        }
+        section {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style = "border:rgb(0, 0, 255); border-width:5px; border-style:solid; text-align:center;background-color:black;color:white"> <strong>Mexican Bar and Grill</strong></h1>
+    <div class="navbar" style = "padding:30px; text-align:center">
+        <a href="./index.html">Home</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Food Items
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./food.html">Food</a>
+            <a href="./drinks.html">Drinks</a>
+            <a href="./menu.html">Full Menu</a>
+            
+          </div>
+        </div>
+        <a href = "./authors.html">Personal</a>
+        
+      </div>
+    </div>
+
+    <h2 style = "border:rgb(0, 0, 255); border-width:2.5px; border-style:solid; text-align:center;background-color:black;color:white">Full Menu</h2>
+    <div class="border-container" style = "border:rgb(0, 0, 255); border-width:2.5px; border-style:solid; text-align:center;background-color:black;color:white">
+      <h2 style = text-align:center>Welcome to Mexican Bar and Grill's Full Menu!</h2>
+      <p>Indulge in a main dish like tacos or enchiladas. Start you meal of with some chips and guac. Have a margarita with you firends to start off the night.</p>
+     
+
+    
+
+  </div>
+
+      <div id = "foods"></div>
+      <div id = "drinks"></div>
+      <script src = "menu.js"></script>
+    
+      <style>
+        body {
+          background-image: url('https://c7.alamy.com/comp/TAPJ5J/an-overhead-photo-of-an-assortment-of-many-different-mexican-foods-including-tacos-guacamole-nachos-with-grilled-chicken-tortillas-salsas-and-oth-TAPJ5J.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    
+
+       
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p>Jake Nickel</p>
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

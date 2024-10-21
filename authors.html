@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Author</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally */
+            justify-content: center; /* Center items vertically */
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-image: url('https://c7.alamy.com/comp/TAPJ5J/an-overhead-photo-of-an-assortment-of-many-different-mexican-foods-including-tacos-guacamole-nachos-with-grilled-chicken-tortillas-salsas-and-oth-TAPJ5J.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; /* Ensure the background covers the viewport */
+            text-align: center; /* Center text in the body */
+        }
+
+        .border-container {
+            display: inline-block; /* Ensure the border surrounds only the text */
+            border: 2.5px solid blue; /* Blue border */
+            margin: 20px; /* Spacing around the box */
+            padding: 20px; /* Padding inside the box */
+            background-color: black; /* Background color for the box */
+            color: white; /* Text color */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            position: relative; /* Changed to relative for proper positioning */
+        }
+
+        .navbar {
+            text-align: center;
+            padding: 30px;
+        }
+
+        a {
+            color: white; /* White text for links */
+            text-decoration: none; /* Remove underline from links */
+            margin: 0 15px; /* Spacing between links */
+        }
+        
+        /* Additional styling for the author section */
+        .author-container {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .author-container img {
+            border-radius: 10px; /* Rounded corners for the image */
+        }
+
+        h1 {
+            font-size: 2rem; /* Larger font size for the title */
+        }
+
+        h2 {
+            font-size: 1.5rem; /* Font size for subheadings */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="border-container">
+        <strong>About the Author</strong>
+    </h1>
+    
+    <div class="navbar">
+        <div class="border-container">
+            <a href="./index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Food Items</button>
+                <div class="dropdown-content">
+                    <a href="./food.html">Food</a>
+                    <a href="./drinks.html">Drinks</a>
+                    <a href="./menu.html">Full Menu</a>
+                </div>
+            </div>
+            <a href="./authors.html">Personal</a>
+        </div>
+    </div>
+
+    <h2 class="border-container">Personal Information</h2>
+    
+    <div class="border-container author-container">
+        <img src="./images/Personal.jpg" alt="Jake Nickel" width="150" height="200">
+        <h2>Jake Nickel</h2>
+        <p style="font-family: 'Courier New', Courier, monospace; color: rgb(249, 110, 110); font-size: 24px;">Software Engineering</p>
+        <p>I am an undergraduate student at Iowa State University majoring in Software Engineering. I am currently enrolled in SE3190, COMS3090, CPRE3100, and CPRE2880. Throughout the semester, I will be learning more about frontend code, website development, and new programming languages. I am excited to enhance my skills for my future career.</p>
+    </div>
+
+    <footer>
+        <p>Contact Me!<br>
+        <a href="mailto:jakenic@iastate.edu">jakenic@iastate.edu</a></p>
+    </footer>
+</body>
+</html>
